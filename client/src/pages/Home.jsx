@@ -220,7 +220,7 @@ const CourseLandingPage = () => {
               <a href="https://www.worknai.online" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
                 www.worknai.online
               </a>+
-              <a href="tel:+91" className={styles.contactLink}>+91- </a>
+              <a href="tel:+91 9923400442" className={styles.contactLink}>+91- </a>
             </div>
           </div>
         </footer>
