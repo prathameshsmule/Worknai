@@ -217,10 +217,10 @@ const CourseLandingPage = () => {
               <span className={styles.logoText}>WorknAi<br/>SOFTECH</span>
             </div>
             <div className={styles.contactInfo}>
-              <a href="https://www.newgensoftech.com" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
-                www.newgensoftech.com
-              </a>
-              <a href="tel:+918888848588" className={styles.contactLink}>+91- 88888 48588</a>
+              <a href="https://www.worknai.online" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>
+                www.worknai.online
+              </a>+
+              <a href="tel:+91" className={styles.contactLink}>+91- </a>
             </div>
           </div>
         </footer>
@@ -275,11 +275,12 @@ const CourseLandingPage = () => {
             <span className={styles.sidebarIcon}>📧</span>
             <span className={styles.sidebarText}>Contact Us</span>
           </div>
-          <a href="https://wa.me/918888848588" target="_blank" rel="noopener noreferrer" className={styles.sidebarItem}>
+          <a href="https://wa.me/+919923400442" target="_blank" rel="noopener noreferrer" className={styles.sidebarItem}>
             <span className={styles.sidebarIcon}>💬</span>
             <span className={styles.sidebarText}>WhatsApp</span>
           </a>
-          <a href="tel:+918888848588" className={styles.sidebarItem}>
+          <a href="tel:+919923400442
+            " className={styles.sidebarItem}>
             <span className={styles.sidebarIcon}>📞</span>
             <span className={styles.sidebarText}>Call Now</span>
           </a>
@@ -333,7 +334,7 @@ const CourseLandingPage = () => {
         )}
 
         {/* Chat Widget */}
-        <a href="https://wa.me/918888848588" target="_blank" rel="noopener noreferrer" className={styles.chatWidget}>
+        <a href="https://wa.me/91" target="_blank" rel="noopener noreferrer" className={styles.chatWidget}>
           <span className={styles.chatIcon}>💬</span>
         </a>
       </div>
@@ -629,13 +630,13 @@ const CourseLandingPage = () => {
         { quote: "Comprehensive training with a clear approach–helped our team immensely!", name: "Divya P.", color: "linear-gradient(135deg, #8B5CF6 0%, #B794F6 100%)" },
         { quote: "The trainers were knowledgeable and always ready to help. Highly recommended!", name: "Vikas M.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
         { quote: "Customized training that perfectly aligned with our business goals.", name: "Sanjay T.", color: "linear-gradient(135deg, #8B5CF6 0%, #B794F6 100%)" },
-        { quote: "Our employees are now more confident and skilled, thanks to NewGenSoftech!", name: "Megha S.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
+        { quote: "Our employees are now more confident and skilled, thanks to WorknaiSoftech!", name: "Megha S.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
       ].concat([
         { quote: "Understood exactly what we needed and applied it to our real-world application.", name: "Rohan S.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
         { quote: "Comprehensive training with a clear approach–helped our team immensely!", name: "Divya P.", color: "linear-gradient(135deg, #8B5CF6 0%, #B794F6 100%)" },
         { quote: "The trainers were knowledgeable and always ready to help. Highly recommended!", name: "Vikas M.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
         { quote: "Customized training that perfectly aligned with our business goals.", name: "Sanjay T.", color: "linear-gradient(135deg, #8B5CF6 0%, #B794F6 100%)" },
-        { quote: "Our employees are now more confident and skilled, thanks to NewGenSoftech!", name: "Megha S.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
+        { quote: "Our employees are now more confident and skilled, thanks to WorknaiSoftech!", name: "Megha S.", color: "linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)" },
       ]).map((testimonial, index) => (
         <div key={`right-${index}`} className={styles.testimonialCard} style={{ background: testimonial.color }}>
           <div className={styles.cardHeader}>
